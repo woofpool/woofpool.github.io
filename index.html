@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-lg-12 text-center">
             <h1 class="mt-4">Woof Cardano Stake Pool</h1>
-            <p>Ticker: WOOF <span id="STR8-saturation"><meter value="0.90827767513958"></meter></span> | Pool-ID: <span
+            <p>Ticker: WOOF <span id="WOOF-saturation"><meter value="0.90827767513958"></meter></span> | Pool-ID: <span
                     id="poolid">c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208</span>
                 <a href="javascript:onclick=copyToClipboard('#poolid');"><i class="far fa-copy" aria-hidden="true"></i></a>
                 | Mission Driven Pool | <a
@@ -134,8 +134,8 @@
         $temp.remove();
     }
 
-    $.getJSON('https://js.adapools.org/pools/000006d97fd0415d2dafdbb8b782717a3d3ff32f865792b8df7ddd00/summary.json', function (apjs) {
-        document.getElementById("STR8-saturation").innerHTML = '<meter value="' + apjs.data.saturated + '"></meter>'
+    $.getJSON('https://js.adapools.org/pools/c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208/summary.json', function (apjs) {
+        document.getElementById("WOOF-saturation").innerHTML = '<meter value="' + apjs.data.saturated + '"></meter>'
     });
 </script>
 </body>
