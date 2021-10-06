@@ -1,0 +1,33 @@
+{
+    "info": {
+        "url_png_icon_64x64": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/iphone-60x60@3x.png?raw=true",
+        "url_png_logo": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/southtyrolpool-name.jpg?raw=true",
+        "location": "USA",
+        "social": {
+            "twitter_handle": "extramileit2003",
+            "telegram_handle": "",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": ""
+        },
+        "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "I am a software developer passionate about Cardano",
+            "server": "One block producer and two relays running on VPS",
+            "company": ""
+        },
+    "my-pool-ids": {
+        "0": "c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208",
+        "1": ""
+      }
+    }
+}
