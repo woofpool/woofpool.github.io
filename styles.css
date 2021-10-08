@@ -43,3 +43,10 @@ tbody th {
 tbody tr:nth-child(even) th {
     background-color: #25c;
 }
+
+#aspca_logo {
+    width: 209px;
+    height: 56px;
+    background: url(images/aspca_spritesheet.png) 0 0;
+    border: none;
+}
