@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.css" rel="stylesheet" media="all"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -17,7 +18,8 @@
     <div class="row">
         <div class="col-lg-12 text-center">
             <h1 class="mt-4" style="font-weight: bold; color: #0B57A0;">WOOF! Cardano Stake Pool</h1>
-            <p>Ticker: WOOF <span id="WOOF-saturation" data-toggle="tooltip" title="pool saturation meter"><meter value="0.90827767513958"></meter></span> | Pool-ID: <span
+            <p>Ticker: WOOF <span id="WOOF-saturation" data-toggle="tooltip" title="pool saturation meter"><meter
+                    value="0.90827767513958"></meter></span> | Pool-ID: <span
                     id="poolid">c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208</span>
                 <a href="javascript:onclick=copyToClipboard('#poolid');"><i class="far fa-copy" aria-hidden="true"></i></a>
                 | Mission Driven Pool | <a
@@ -39,12 +41,13 @@
                 </h5>
                 <p>
                     The pool is owned & operated by an IT professional and Cardano Plutus Pioneer.
-                    A <strong>substantial pledge</strong> of 100 thousand ADA (₳) shows our commitment to running high-quality, secure
+                    A <strong>substantial pledge</strong> of 100 thousand ADA (₳) shows our commitment to running
+                    high-quality, secure
                     operations.
                 </p>
                 <p>
                     WOOF is proud to support the well-being of abandoned and special-needs companion animals!
-                    <strong>All profits from this pool</strong>, i.e. 100% of pool margin, will be donated to the
+                    <strong>All profits from this pool</strong>, 100% of pool margin, will be donated to the
                     tremendous animal charities listed below.
                     <i style="color:#0B57A0;" class="fas fa-gift fa-2x"></i>
                 </p>
@@ -62,11 +65,13 @@
                 <div class="card" style="background-color: #DFD9D4;">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <a href="https://bestfriends.org/" target="_blank"><img src="images/bestFriendsLogo.svg" height="80" width="240"/></a>
+                            <a href="https://bestfriends.org/" target="_blank"><img src="images/bestFriendsLogo.svg"
+                                                                                    height="80" width="240"/></a>
                         </h5>
                         <p class="card-text">
                             Best Friends is a non-profit organization dedicated to a No-Kill mission.
-                            The history of the organization begins in Utah, where they operate the largest sanctuary for companion animals in the US.
+                            The history of the organization begins in Utah, where they operate the largest sanctuary for
+                            companion animals in the US.
                             This is a place where
                             homeless and special-needs animals can heal, be adopted, or receive lifelong care.
                             You can read about the history of Best Friends
@@ -85,11 +90,14 @@
                 <div class="card" style="background-color: #DFD9D4;">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <a href="https://www.aspca.org/" target="_blank"><div id="aspca_logo"></div></a>
+                            <a href="https://www.aspca.org/" target="_blank">
+                                <div id="aspca_logo"></div>
+                            </a>
                         </h5>
                         <p class="card-text">
-                            ASPCA established the first animal human society in North America.
-                            They have literally been saving animal lives since 1866!  You can read about the history of ASPCA
+                            ASPCA established the first animal humane society in North America.
+                            They have literally been saving animal lives since 1866! You can read about the history of
+                            ASPCA
                             <a href="https://www.aspca.org/about-us/history-of-the-aspca" target="_blank">here</a>.
                         <p class="card-text">
                             They are a non-profit organization founded on the belief that animals are entitled to
@@ -116,24 +124,26 @@
                 <p>
                     As a long-term goal, WOOF pool will reach out to the organization to consider receiving ADA
                     directly
-                    or by using a payment gateway, so that it eliminates the need to convert donations into fiat
+                    or by using a payment gateway like <a href="https://adapay.finance/" target="_blank">ADA Pay</a>, so
+                    that it eliminates the need to convert donations into fiat
                     money.
                     This will help expand the Cardano ecosystem to more organizations and promote awareness.
                 </p>
             </div>
             <div>
                 <h4 class="mt-4" style="color: #bf692c;">Who is the pool operator?</h4>
-                <img style="float:left;margin-right: 30px;" src="images/nerdDog.jpg" height="200" width="300"/>
+                <img style="float:left;margin-right: 30px;" src="images/nerdDog.jpg" height="216" width="324"/>
                 <div style="float: none;">
                     <p>
                         I am Kurt, an IT professional with over twenty years of software development experience as a
                         consultant based in the United States. I appreciate the impact of blockchain technologies and
                         believe
                         Cardano is poised to change the world for the better.
-                        I have been learning about crypto currencies and blockchain projects since 2017.
+                        I have been learning about digital currencies and blockchain projects since 2017.
                     </p>
                     <p>
-                        In addition to running WOOF pool, I am working to build distributed applications (DApp) on Cardano.
+                        In addition to running WOOF pool, I am working to build distributed applications (DApps) on
+                        Cardano.
                         Over the last few months, I have been learning the Haskell programming language, which is the
                         language used by Cardano for smart contract development.
                         I aim to give back to the community by producing educational videos and documentation about the
@@ -161,31 +171,30 @@
             <div>
                 <h4 class="mt-4" style="color: #bf692c;">What does the pool run on?</h4>
                 <p>
-                    The pool is run on three hosted virtual private servers including one block producer and
+                    The pool is run on three virtual private servers (VPS) including one block producer and
                     two relays.
                 </p>
                 <p>
-                    Each VPS is running Ubuntu 20.04 with 8 CPU cores, 30 GB of RAM, and nearly a terabyte of storage
+                    Each VPS is running Ubuntu 20.04 operating system with 8 CPU cores, 30 GB of RAM, and 800 gigabytes of SSD storage
                     to accommodate growing network usage.
                 </p>
             </div>
             <div>
                 <h4 class="mt-4" style="color: #bf692c;">How will the pool be maintained?</h4>
                 <p>
-                    This pool is monitored to ensure 24 x 7 access. The monitoring process scrapes statistics about the
+                    This pool is monitored to ensure 24 x 7 access. The monitoring process collects statistics about the
                     health of the operating system as well
-                    as the state of the Cardano block chain. If the state of the system shows any concerns,
-                    notifications
-                    are sent to the operator to fix.
+                    as the state of the Cardano block chain. If the state of the system shows any concerns such as the
+                    Cardano node not connecting to peers, notifications are sent to the operator to promptly fix the issue.
                 </p>
                 <p>
                     Your pool operator will maintain the appropriate Cardano node software at all times
-                    and follow best-practice security recommendations to ensure the pool has high availability.
+                    and follow best-practice security recommendations to ensure the pool maintains high availability.
                 </p>
             </div>
             <div>
                 <h4 class="mt-4" style="color: #bf692c;">Why Cardano?</h4>
-                <img style="float:left;margin-right: 30px;" src="images/teacherDog.jpg" height="200" width="300"/>
+                <img style="float:left;margin-right: 30px;" src="images/teacherDog.jpg" height="216" width="324"/>
                 <p>
                     One of the biggest differentiators of Cardano from other blockchains is their philosophy towards
                     designing the protocols used by the network. Cardano relies on the standards of science.
@@ -220,36 +229,42 @@
                 </p>
                 <p>
                     Other resources to learn about Cardano:
-                    <ul>
-                        <li>
-                            <a href="https://cardanodocs.com" target="_blank">Cardano Documentation</a> -
-                            Full technical documentation of the project
-                        </li>
-                        <li>
-                            <a href="https://cardanoroadmap.com" target="_blank">Cardano Roadmap</a> -
-                            Development path of the Cardano project
-                        </li>
-                        <li>
-                            <a href="https://whycardano.com" target="_blank">Why Cardano</a> -
-                            The philosophy behind the project
-                        </li>
-                    </ul>
+                <ul>
+                    <li>
+                        <a href="https://cardanodocs.com" target="_blank">Cardano Documentation</a> -
+                        Full technical documentation of the project
+                    </li>
+                    <li>
+                        <a href="https://cardanoroadmap.com" target="_blank">Cardano Roadmap</a> -
+                        Development path of the Cardano project
+                    </li>
+                    <li>
+                        <a href="https://whycardano.com" target="_blank">Why Cardano</a> -
+                        The philosophy behind the project
+                    </li>
+                </ul>
                 </p>
             </div>
             <div>
                 <h4 class="mt-4" style="color: #bf692c;">How do I stake my ADA?</h4>
                 <p>
                     Perhaps, you are new to Cardano or you just need some help learning how to stake your ADA.
-                    Fortunately, there are some nice YouTube Videos on this.  Here is one to get you started, but
-                    it's easy to find great tutorials on this by searching in YouTube.  Of course, it would be wonderful
+                    Fortunately, there are some nice YouTube Videos on this. Here is one to get you started, but
+                    it's easy to find great tutorials on this by searching in YouTube. Of course, it would be wonderful
                     if you stake with WOOF Pool!
-                    <ul>
-                        <li>
-                            <h5>IOHK video: Delegating in Daedalus</h5>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VtkjM_0k4R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </li>
-                    </ul>
                 </p>
+                <h5>IOHK video: Delegating in Daedalus</h5>
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 col-sm-12">
+                        <div class="iframe-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VtkjM_0k4R0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -260,7 +275,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h5>
-                    <img src="images/WoofIcon.png" width="25" height="25"/> WOOF POOL
+                    <img src="images/dogHeadOnlyNoBackground.png" width="25" height="25"/> WOOF POOL
                     <small>&copy; Copyright 2021</small>
                 </h5>
             </div>
@@ -276,7 +291,7 @@
                     <a href="mailto:extramileit@gmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
                 </span>
                 <span style="margin-left: 10px; margin-right: 10px;">&#8226;</span>
-                <span style="font-size: smaller;">Page last updated 10/8/2021</span>
+                <span style="font-size: smaller;">Page last updated 10/10/2021</span>
             </div>
         </div>
     </div>
