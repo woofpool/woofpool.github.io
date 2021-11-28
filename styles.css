@@ -2,6 +2,10 @@ body {
     padding-top: 50px;
 }
 
+html {
+    scroll-padding-top: 70px; /* height of sticky header */
+}
+
 table {
     border-collapse: collapse;
     border: 1px solid black;
