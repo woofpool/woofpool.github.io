@@ -26,7 +26,7 @@ th, td {
     padding: 8px;
 }
 thead {
-    background-color: #ff702c;
+    background-color: #25c;
     color: white;
     font-size: 0.875rem;
     text-transform: uppercase;
@@ -44,9 +44,9 @@ tbody tr:nth-child(even) {
     background-color: #eee;
 }
 tbody th {
-    background-color: #36c;
+    background-color: #25c;
     color: #fff;
-    text-align: left;
+    text-align: center;
 }
 tbody tr:nth-child(even) th {
     background-color: #25c;
