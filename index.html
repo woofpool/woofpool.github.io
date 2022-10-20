@@ -529,8 +529,8 @@
         $temp.remove();
     }
 
-    $.getJSON('https://js.adapools.org/pools/c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208/summary.json', function (apjs) {
-        document.getElementById("WOOF-saturation").innerHTML = '<meter value="' + apjs.data.saturated + '"></meter>'
+    $.getJSON('https://js.cexplorer.io/api-static/pool/pool1cg559cdc25fkvs73umj6w5nxlwy3mpmj02xt7p4v69eqs5ncz9k.json', function (apjs) {
+        document.getElementById("WOOF-saturation").innerHTML = '<meter value="' + apjs.data.saturation + '"></meter>'
     });
 </script>
 </body>
