@@ -67,6 +67,7 @@
                     </li>
                 </ul>
             </div>
+            <div id="google_translate_element"></div>
         </div>
     </nav>
     <div class="row">
@@ -515,7 +516,18 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
 <script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages : 'en,es,fr,de,pt,ja,ko,vi,zh-CN,zh-TW'}, 'google_translate_element');
+        var $googleDiv = $("#google_translate_element .skiptranslate");
+        var $googleDivChild = $("#google_translate_element .skiptranslate div");
+        $googleDivChild.next().remove();
+
+        $googleDiv.contents().filter(function(){
+            return this.nodeType === 3 && $.trim(this.nodeValue) !== '';
+        }).remove();
+    }
     function copyToClipboard(element) {
         var $temp = $("<input>");
         $("body").append($temp);
