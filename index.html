@@ -36,7 +36,7 @@
     </style>
     <title>WOOF Cardano Stake Pool</title>
 </head>
-<body style="background: #f8f1ec;">
+<body style="background: #f8f1ec; padding-top:20px;">
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background: #f8f1ec;">
         <div class="container">
@@ -67,7 +67,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#howToStake">Staking</a>
                     </li>
-                    <li class="nav-item" style="padding-top:5px;padding-left:5px;">
+                    <li class="nav-item" style="padding-top:5px;padding-left:5px;margin-bottom: 0; padding-bottom:0;">
                         <div id="google_translate_element"></div>
                     </li>
                 </ul>
@@ -75,7 +75,7 @@
         </div>
     </nav>
     <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 text-center d-none d-sm-block">
             <h1 class="mt-4 notranslate" style="font-weight: bold; color: #0B57A0;">WOOF! Cardano Stake Pool</h1>
             <p>Ticker: WOOF <span id="WOOF-saturation" data-toggle="tooltip" title="pool saturation meter"><meter
                     value="0.90827767513958"></meter></span> | Pool-ID: <span
@@ -88,6 +88,18 @@
             <p style="font-size: 20px; color:#498bc9; font-weight: bold;"><em>"A pool for pet lovers and meme
                 coins!"</em></p>
         </div>
+        <div class="col-lg-4 text-center d-block d-sm-none">
+            <h1 class="mt-4 notranslate" style="font-weight: bold; color: #0B57A0;">WOOF! Cardano Stake Pool</h1>
+            <p>Ticker: WOOF <span id="WOOF-saturation" data-toggle="tooltip" title="pool saturation meter"><meter
+                    value="0.90827767513958"></meter></span>
+                | Mission Driven Pool | <a
+                        href="https://pooltool.io/pool/c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208/blocks"
+                        target="_blank" rel="noopener noreferrer">Pooltool.io profile <i class="fa fa-external-link "
+                                                                                         aria-hidden="true"></i></a></p>
+            <p style="font-size: 20px; color:#498bc9; font-weight: bold;"><em>"A pool for pet lovers and meme
+                coins!"</em></p>
+        </div>
+
     </div>
     <div class="row">
         <div class="col-lg-12">
@@ -545,6 +557,14 @@
     $.getJSON('https://js.cexplorer.io/api-static/pool/pool1cg559cdc25fkvs73umj6w5nxlwy3mpmj02xt7p4v69eqs5ncz9k.json', function (apjs) {
         document.getElementById("WOOF-saturation").innerHTML = '<meter value="' + apjs.data.saturation + '"></meter>'
     });
+
+    $(document).ready(() => {
+        let $navlinks = $('.nav-link').not('.dropdown-toggle');
+        // console.log($navlinks)
+        $navlinks.click((e) => {
+            $(e.target).closest('.navbar').find('.navbar-collapse').collapse('toggle')
+        })
+    })
 </script>
 </body>
 </html>
