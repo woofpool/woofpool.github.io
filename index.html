@@ -33,6 +33,7 @@
         body > .skiptranslate {
             display: none;
         }
+
     </style>
     <title>WOOF Cardano Stake Pool</title>
 </head>
@@ -67,8 +68,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#howToStake">Staking</a>
                     </li>
-                    <li class="nav-item" style="padding-top:5px;padding-left:5px;margin-bottom: 0; padding-bottom:0;">
-                        <div id="google_translate_element"></div>
+                    <li class="nav-item">
+                        <div class="nav-select" id="google_translate_element" style="padding-top:4px;margin-left:4px;"></div>
                     </li>
                 </ul>
             </div>
@@ -223,7 +224,7 @@
                         <th align="right">ADA Amount</th>
                         <th align="right">Charity</th>
                         <th align="right">Docs</th>
-                        <th align="right">Comments</th>
+                        <th align="right" class="d-none d-sm-block">Comments</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -235,7 +236,7 @@
                             <a href="./donateDocs/20211206-coinbaseReceipt.png" target="_blank" title="Coinbase receipt">Coinbase receipt</a><br/>
                             <a href="./donateDocs/20211206-etherscan-Confirmation.png" target="_blank" title="Etherscan confirm">Etherscan confirm</a>
                         </td>
-                        <td class="notranslate">via Giving Block</td>
+                        <td class="notranslate d-none d-sm-block">via Giving Block</td>
                     </tr>
                     <tr>
                         <td>01/27/2022</td>
@@ -246,7 +247,7 @@
                             <a href="./donateDocs/20220127-auditOfTransactions.png" target="_blank" title="Audit of Tx">Audit of Tx</a><br/>
                             <a href="./donateDocs/20220127-endaomentReceipt.png" target="_blank" title="Endaoment receipt">Endaoment receipt</a>
                         </td>
-                        <td class="notranslate">via Endaoment DAO</td>
+                        <td class="notranslate d-none d-sm-block">via Endaoment DAO</td>
                     </tr>
                     <tr>
                         <td>01/31/2022</td>
@@ -255,7 +256,7 @@
                         <td>
                             <a href="./donateDocs/20220131-cardanoScanPariahDog.png" target="_blank" title="Cardanoscan">Cardanoscan</a>
                         </td>
-                        <td>Direct</td>
+                        <td class="d-none d-sm-block">Direct</td>
                     </tr>
                     <tr>
                         <td>03/08/2022</td>
@@ -264,7 +265,7 @@
                         <td>
                             <a href="./donateDocs/20220308-cardanoscanClawsPaws.png" target="_blank" title="Cardanoscan">Cardanoscan</a>
                         </td>
-                        <td>Direct</td>
+                        <td class="d-none d-sm-block">Direct</td>
                     </tr>
                     <tr>
                         <td>03/25/2022</td>
@@ -274,7 +275,7 @@
                             <a href="./donateDocs/20220325-cardanoscanRealBark.png" target="_blank" title="Cardanoscan">Cardanoscan</a><br/>
                             <a href="./donateDocs/20220325-TheRealBarkDonationReceipt.pdf" target="_blank" title="Receipt">Donation Receipt</a>
                         </td>
-                        <td>Direct</td>
+                        <td class="d-none d-sm-block">Direct</td>
                     </tr>
                     <tr>
                         <td>04/07/2022</td>
@@ -283,7 +284,7 @@
                         <td>
                             <a href="./donateDocs/20220407-cardanoScanClawsPaws.png" target="_blank" title="Cardanoscan">Cardanoscan</a>
                         </td>
-                        <td>Direct</td>
+                        <td class="d-none d-sm-block">Direct</td>
                     </tr>
                     <tr>
                         <td>05/31/2022</td>
@@ -293,7 +294,7 @@
                             <a href="./donateDocs/20220531-cardanoscan.png" target="_blank" title="Cardanoscan">Cardanoscan</a><br/>
                             <a href="./donateDocs/20220531-endaomentReceipt.png" target="_blank" title="Cardanoscan">Endaoment receipt</a><br/>
                         </td>
-                        <td class="notranslate">via Endaoment DAO</td>
+                        <td class="notranslate d-none d-sm-block">via Endaoment DAO</td>
                     </tr>
                     <tr>
                         <td>06/22/2022</td>
@@ -302,7 +303,7 @@
                         <td>
                             <a href="./donateDocs/20220622-cardanoscanClawsPaws.png" target="_blank" title="Cardanoscan">Cardanoscan</a><br/>
                         </td>
-                        <td>Direct</td>
+                        <td class="d-none d-sm-block">Direct</td>
                     </tr>
                     <tr>
                         <td>10/20/2022</td>
@@ -312,7 +313,7 @@
                             <a href="./donateDocs/20221020-cardanoscan.png" target="_blank" title="Cardanoscan">Cardanoscan</a><br/>
                             <a href="./donateDocs/20221020-endaomentReceipt.png" target="_blank" title="Cardanoscan">Endaoment receipt</a><br/>
                         </td>
-                        <td class="notranslate">via Endaoment DAO</td>
+                        <td class="notranslate d-none d-sm-block">via Endaoment DAO</td>
                     </tr>
                     <tr>
                         <td>03/21/2023</td>
@@ -322,7 +323,7 @@
                             <a href="./donateDocs/20230321-cardanoscan.png" target="_blank" title="Cardanoscan">Cardanoscan</a><br/>
                             <a href="./donateDocs/20230321-endaomentReceipt.jpg" target="_blank" title="Cardanoscan">Endaoment receipt</a><br/>
                         </td>
-                        <td class="notranslate">via Endaoment DAO</td>
+                        <td class="notranslate d-none d-sm-block">via Endaoment DAO</td>
                     </tr>
                     <tr>
                         <td>08/26/2023</td>
@@ -332,7 +333,7 @@
                             <a href="./donateDocs/20230826-cardanoscan.png" target="_blank" title="Cardanoscan">Cardanoscan</a><br/>
                             <a href="./donateDocs/20230826-endaomentReceipt.png" target="_blank" title="Endaoment Receipt">Endaoment receipt</a><br/>
                         </td>
-                        <td class="notranslate">via Endaoment DAO</td>
+                        <td class="notranslate d-none d-sm-block">via Endaoment DAO</td>
                     </tr>
                     <tr>
                         <td>01/16/2024</td>
@@ -342,7 +343,7 @@
                             <a href="./donateDocs/20240116-cardanoscan.png" target="_blank" title="Cardanoscan">Cardanoscan</a><br/>
                             <a href="./donateDocs/20240116-endaomentReceipt.png" target="_blank" title="Endaoment Receipt">Endaoment receipt</a><br/>
                         </td>
-                        <td class="notranslate">via Endaoment DAO</td>
+                        <td class="notranslate d-none d-sm-block">via Endaoment DAO</td>
                     </tr>
                     <tr>
                         <td>11/11/2024</td>
@@ -352,14 +353,14 @@
                             <a href="./donateDocs/20241111-adastat.png" target="_blank" title="Adastat">Adastat</a><br/>
                             <a href="./donateDocs/20241111-endaomentReceipt.png" target="_blank" title="Endaoment Receipt">Endaoment receipt</a><br/>
                         </td>
-                        <td class="notranslate">via Endaoment DAO</td>
+                        <td class="notranslate d-none d-sm-block">via Endaoment DAO</td>
                     </tr>
                     <tr>
                         <td><strong>Total Donations </strong></td>
                         <td class="notranslate"><strong>7550 ADA</strong></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td class="d-none d-sm-block"></td>
                     </tr>
                     </tbody>
                 </table>
@@ -563,7 +564,11 @@
         // console.log($navlinks)
         $navlinks.click((e) => {
             $(e.target).closest('.navbar').find('.navbar-collapse').collapse('toggle')
-        })
+        });
+        let $navSelect = $('.nav-select');
+        $navSelect.change((e) => {
+            $(e.target).closest('.navbar').find('.navbar-collapse').collapse('toggle')
+        });
     })
 </script>
 </body>
